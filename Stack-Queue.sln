@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackArray", "StackArray\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLinkedList", "StackLinkedList\StackLinkedList.csproj", "{1DC0E72D-9465-404A-A2C0-BDFBCEE7D574}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueArray", "QueueArray\QueueArray.csproj", "{75DAC494-ADC7-4ADB-A536-846D4F963FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1DC0E72D-9465-404A-A2C0-BDFBCEE7D574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC0E72D-9465-404A-A2C0-BDFBCEE7D574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC0E72D-9465-404A-A2C0-BDFBCEE7D574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DAC494-ADC7-4ADB-A536-846D4F963FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DAC494-ADC7-4ADB-A536-846D4F963FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DAC494-ADC7-4ADB-A536-846D4F963FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DAC494-ADC7-4ADB-A536-846D4F963FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
