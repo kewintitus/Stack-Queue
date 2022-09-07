@@ -41,6 +41,56 @@ namespace QueueArray
                 return rear - front +1;
             }
         }
+        public void Insert(int x)
+        {
+            if (IsFull())
+            {
+                Console.WriteLine("Queue is full");
+                return;
+            }
+            if(front == -1)
+            {
+                front = 0;
+            }
+            queueArray[rear+1] = x;
+            rear++;
+        }
+        public int Delete()
+        {
+            int x;
+            if (IsEmpty())
+            {
+                throw new System.InvalidOperationException("Queue underflow");
+                
+            }
+            x = queueArray[front];
+            front = front + 1;
+            return x;
+
+        }
+
+        public int Peek()
+        {
+            if(IsEmpty()){
+                throw new System.InvalidOperationException("Queue underflow");
+            }
+            return queueArray[front];
+        }
+
+        public void Display()
+        {
+            if (IsEmpty())
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
+            Console.WriteLine("Queue is : ");
+            for (int i = front; i <= rear; i++)
+            {
+                Console.Write(queueArray[i]+ " ");
+            }
+            Console.WriteLine();
+        }
 
     }
 
