@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackLinkedList", "StackLin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueArray", "QueueArray\QueueArray.csproj", "{75DAC494-ADC7-4ADB-A536-846D4F963FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueLinkedList", "QueueLinkedList\QueueLinkedList.csproj", "{10391FBD-4239-412E-A814-E117F55BA310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueLinkedList", "QueueLinkedList\QueueLinkedList.csproj", "{10391FBD-4239-412E-A814-E117F55BA310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularQueue", "CirculatQueue\CircularQueue.csproj", "{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{10391FBD-4239-412E-A814-E117F55BA310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10391FBD-4239-412E-A814-E117F55BA310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10391FBD-4239-412E-A814-E117F55BA310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
