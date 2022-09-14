@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueLinkedList", "QueueLin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularQueue", "CirculatQueue\CircularQueue.csproj", "{7E5C1652-9914-4C26-ACAE-0EE5EE721C86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanthesesValidation", "ParanthesesValidation\ParanthesesValidation.csproj", "{4D29F672-EB79-48E2-B531-10DB56003EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParanthesesValidation", "ParanthesesValidation\ParanthesesValidation.csproj", "{4D29F672-EB79-48E2-B531-10DB56003EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostfixEvaluate", "PostfixProject\PostfixEvaluate.csproj", "{4012EB61-A19A-4AA6-B820-3C43A95FBCA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4D29F672-EB79-48E2-B531-10DB56003EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D29F672-EB79-48E2-B531-10DB56003EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D29F672-EB79-48E2-B531-10DB56003EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4012EB61-A19A-4AA6-B820-3C43A95FBCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4012EB61-A19A-4AA6-B820-3C43A95FBCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4012EB61-A19A-4AA6-B820-3C43A95FBCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4012EB61-A19A-4AA6-B820-3C43A95FBCA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
