@@ -10,6 +10,9 @@ namespace PostfixEvaluate
             Console.Write("Enter the expression:");
             infix = Console.ReadLine();
             string postfix = InfixtoPostFix(infix);
+            Console.WriteLine("Postfix expression is : " + postfix);
+
+            Console.WriteLine("Value of expression : " + EvaluatePostFix(postfix));
 
         }
 
@@ -50,6 +53,10 @@ namespace PostfixEvaluate
                         break;
 
                 }
+            }
+            while (!st.IsEmpty())
+            {
+                postfix += st.Pop();
             }
             return postfix;
         }
@@ -105,7 +112,7 @@ namespace PostfixEvaluate
                             st.Push(y % x);
                             break;
                         case '^':
-                            st.Push(Power(y,x));
+                            st.Push(Power(y , x));
                             break;
                     }
                 }

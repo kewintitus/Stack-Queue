@@ -28,11 +28,11 @@ namespace PostfixEvaluate
         }
         public bool IsEmpty()
         {
-            return top == -1;
+            return (top == -1);
         }
         public bool IsFull()
         {
-            return stackArray.Length - 1 == top;
+            return (stackArray.Length - 1 == top);
         }
         public void Push(char x) 
         {
