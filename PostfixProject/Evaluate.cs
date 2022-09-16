@@ -72,5 +72,54 @@ namespace PostfixEvaluate
                     return 0;
             }
         }
+        private static int EvaluatePostFix(string postfix)
+        {
+            StackInt st = new StackInt(20);
+
+            int x, y;
+            for (int i = 0; i < postfix.Length; i++)
+            {
+                if (Char.IsDigit(postfix[i]))
+                {
+                    st.Push(Convert.ToInt32(Char.GetNumericValue(postfix[i])));
+                }
+                else
+                {
+                    x = st.Pop();
+                    y = st.Pop();
+                    switch (postfix[i])
+                    {
+                        case '+' :
+                            st.Push(y + x);
+                            break;
+                        case '-':
+                            st.Push(y - x);
+                            break;
+                        case '*':
+                            st.Push(y * x);
+                            break;
+                        case '/':
+                            st.Push(y / x);
+                            break;
+                        case '%':
+                            st.Push(y % x);
+                            break;
+                        case '^':
+                            st.Push(Power(y,x));
+                            break;
+                    }
+                }
+            }
+            return st.Pop();
+        }
+        public static int Power(int b,int a)
+        {
+            int i, x = 1;
+            for(i=0; i<a; i++)
+            {
+                x *= b;
+            }
+            return x;
+        }
     }
 }
